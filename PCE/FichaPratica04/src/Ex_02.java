@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public class Ex_02 {
+    static void main() {
+        System.out.println("Hello World");
+    }
 }
