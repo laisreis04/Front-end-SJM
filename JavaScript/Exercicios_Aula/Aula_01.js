@@ -148,9 +148,22 @@
 // isSnakeEyes(1,1)
 
 
-function soma(arg1, arg2){
-    // console.log(arg1 +arg2)
-    return arg1 +arg2;
-}
+// function soma(arg1, arg2){
+//     // console.log(arg1 +arg2)
+//     return arg1 +arg2;
+// }
 
-console.log(soma(5,5) * 5);
+// console.log(soma(5,5) * 5);
+
+//Harry Potter Exercício
+
+const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
+
+// const fisrtNames = fullNames.forEach(function (nomes){
+//      return console.log(nomes.first)
+// })
+
+const lastNames = fullNames.map(function (ultimoNome){
+    return console.log(ultimoNome.last.toUpperCase())
+})
+

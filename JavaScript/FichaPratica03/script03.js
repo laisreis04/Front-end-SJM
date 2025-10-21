@@ -40,17 +40,17 @@
 
 //Ex_04
 
-function gerarSenha(tamanhoSenha){
+// function gerarSenha(tamanhoSenha){
 
-let senha = "";
-let listaCaracteres = "ABDCEabced1234$@";
+// let senha = "";
+// let listaCaracteres = "ABDCEabced1234$@";
 
-//Ciclo para iterar o mesmo numero do tamanho da senha
-for(let i = 0; i < tamanhoSenha; i++){
-senha += listaCaracteres[Math.floor(Math.random()*listaCaracteres.length)]
-}
+// //Ciclo para iterar o mesmo numero do tamanho da senha
+// for(let i = 0; i < tamanhoSenha; i++){
+// senha += listaCaracteres[Math.floor(Math.random()*listaCaracteres.length)]
+// }
 
-console.log(senha)
-}
+// console.log(senha)
+// }
 
-gerarSenha(10)
+// gerarSenha(10)
