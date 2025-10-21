@@ -52,19 +52,64 @@
 
 //Criar objeto
 
-let product = {
-nome: 'banana',
-inStock: true,
-price:1.99,
-colors: ['vermelho', 'azul', 'verde']
-};
+// let product = {
+// nome: 'banana',
+// inStock: true,
+// price:1.99,
+// colors: ['vermelho', 'azul', 'verde']
+// };
 
 
-console.log(product.price)
-console.log(product.colors[2])
+// console.log(product.price)
+// console.log(product.colors[2])
 
-product.price = 2.55
+// product.price = 2.55
 
-console.log(product.price)
-console.log(product)
+// console.log(product.price)
+// console.log(product)
 
+
+//Loop 
+
+//Escrever um ciclo
+
+// for(i = 1; i <= 26; i++){
+//     console.log( i + " I know")
+// }
+
+// for(i = 25;i >= 5; i= i -5){
+//     console.log(i)
+// }
+
+
+
+//Lista de nomes
+// const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"];
+
+// for(const pessoas of people){
+//     console.log(pessoas.toUpperCase())
+// }
+
+//Lista de compras
+
+//Iniciar com um array vazio
+// let listaCompras = [];
+
+// let palavraCodigo = "fim";
+
+// let novoItem = "";
+
+// while(novoItem != palavraCodigo){
+
+//     novoItem = prompt(`Adicione um novo item a sua lista e use a palavra ${palavraCodigo} para terminar a sua lista`)
+
+
+//     if(novoItem === palavraCodigo){
+//         break;
+//     }else{
+//         listaCompras.push(novoItem)
+//         console.log(`${novoItem} adicionado a sua lista`)
+//     }
+// }
+
+// console.log(listaCompras)
