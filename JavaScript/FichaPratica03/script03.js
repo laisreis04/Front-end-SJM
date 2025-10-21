@@ -27,13 +27,30 @@
 
 // }
 
-// ehPrimo(7)
+// ehPrimo(9)
 
 //Ex_03
-function converterParaFahrenheit(tempCelsius){
-//Para mostrar na consola
-console.log((tempCelsius* 1.8) + 32)
+// function converterParaFahrenheit(tempCelsius){
+// //Para mostrar na consola
+// console.log((tempCelsius* 1.8) + 32)
 
+// }
+
+// converterParaFahrenheit(30)
+
+//Ex_04
+
+function gerarSenha(tamanhoSenha){
+
+let senha = "";
+let listaCaracteres = "ABDCEabced1234$@";
+
+//Ciclo para iterar o mesmo numero do tamanho da senha
+for(let i = 0; i < tamanhoSenha; i++){
+senha += listaCaracteres[Math.floor(Math.random()*listaCaracteres.length)]
 }
 
-converterParaFahrenheit(100)
+console.log(senha)
+}
+
+gerarSenha(10)
