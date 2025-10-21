@@ -113,3 +113,44 @@
 // }
 
 // console.log(listaCompras)
+
+//Imprimir Coração
+
+// function imprimirCoracoes(){
+//     alert('<3')
+// }
+
+//Imprimir a mensagem 
+
+// function rant(message){
+// //Criar um bloco de execução
+// for(let i = 1; i <= 3; i++){
+    
+//     // alert(message.toUpperCase())
+//     console.log(message.toUpperCase())
+// }
+
+// }
+
+// IsSnakeEyes
+
+// function isSnakeEyes(num1,num2){
+//     // Condição se os numeros forem iguais
+// if(num1 === num2){
+//     console.log('Yay! Snake eyes ')
+// }else{
+//     console.log('Não são snake eyes')
+// }
+// }
+
+// isSnakeEyes(58,9);
+
+// isSnakeEyes(1,1)
+
+
+function soma(arg1, arg2){
+    // console.log(arg1 +arg2)
+    return arg1 +arg2;
+}
+
+console.log(soma(5,5) * 5);
