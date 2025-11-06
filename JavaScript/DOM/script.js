@@ -49,11 +49,20 @@
 // -----------------------------------------------
 //Magic Forest
 
-//elemento 1
-const box = document.getElementById('container')
-box.style.textAlign = 'center'
-//elemento 2
-const imagem = document.getElementById('floresta')
-imagem.style.width = '150px';
-imagem.style.borderRadius = '50%'
+// //elemento 1
+// const box = document.getElementById('container')
+// box.style.textAlign = 'center'
+// //elemento 2
+// const imagem = document.getElementById('floresta')
+// imagem.style.width = '150px';
+// imagem.style.borderRadius = '50%'
 
+// -----------------------------------------------
+//Rainbow
+const cores = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+
+const elemnetosSpan = document.querySelectorAll('div') // Selecionaeni os elementos apenas com a TAG span
+
+elemnetosSpan.forEach((cadaSpan, index) => {
+    cadaSpan.style.backgroundColor = cores[index]
+}) 
