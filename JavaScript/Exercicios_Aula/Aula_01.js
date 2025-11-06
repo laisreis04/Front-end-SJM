@@ -157,13 +157,52 @@
 
 //Harry Potter Exercício
 
-const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
+// const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
 
-// const fisrtNames = fullNames.forEach(function (nomes){
-//      return console.log(nomes.first)
+// // const fisrtNames = fullNames.forEach(function (nomes){
+// //      return console.log(nomes.first)
+// // })
+
+// const lastNames = fullNames.map(function (ultimoNome){
+//     return console.log(ultimoNome.last.toUpperCase())
 // })
 
-const lastNames = fullNames.map(function (ultimoNome){
-    return console.log(ultimoNome.last.toUpperCase())
-})
+// //Greet
+
+// const greet = (name) => `Olá ${name}`; 
+// console.log(greet('Lais'));
+
+// function hello(name){
+//     console.log(`Olá ${name}`)
+// }
+// hello('Lais')
+
+// const sum = (a, b) => a + b;
+// console.log(sum(5,4))
+
+// function soma(num1, num2){
+//     console.log(num1 +num2)
+// }
+
+// soma(10,9)
+
+// //Nomes
+
+// const validUserNames = [ "Alexandre", "Isabelly Cristina",    "Rafael", "Guilherme", "Fernanda Oliveira", "Lucas", "Leonardo",  "Maria Eduarda Silva", "João", "Antônio Carlos"];
+
+// const user10Char = validUserNames.filter(user10 => user10.length <= 10)
+
+// console.log(user10Char)
+
+
+//All Evens
+
+allEvens([3,5,7,9,11]) //Apenas impares - False
+allEvens([2,4,6,8,10]) //Apenas pares  - True
+allEvens([1,2,3,4,5,6,7,8,9]) //Misto - Falso
+
+function allEvens(array){
+    return console.log(array.every(pares => pares % 2 === 0))
+}
+
 
