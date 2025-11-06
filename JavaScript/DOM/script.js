@@ -9,5 +9,9 @@
 // -----------------------------------------------
 
 //TODOS
-// let doneTodos = document.querySelectorAll('.done');
+let doneTodos = document.querySelectorAll('.done');
 
+let checkbox = document.querySelectorAll('[type = "checkbox"]');
+
+console.log(doneTodos)
+console.log(checkbox)
