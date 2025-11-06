@@ -9,9 +9,38 @@
 // -----------------------------------------------
 
 //TODOS
-let doneTodos = document.querySelectorAll('.done');
+// let doneTodos = document.querySelectorAll('.done');
 
-let checkbox = document.querySelectorAll('[type = "checkbox"]');
+// let checkbox = document.querySelectorAll('[type = "checkbox"]');
 
-console.log(doneTodos)
-console.log(checkbox)
+// console.log(doneTodos)
+// console.log(checkbox)
+
+// -----------------------------------------------
+// PICKLES
+
+// let mudarNome = document.querySelector('h1')
+// mudarNome.innerText = "Yack"
+
+// -----------------------------------------------
+//OVO
+function mudarImagem() {
+  const imagemGalinhaOvo = document.getElementById("imagem_galinha");
+
+  imagemGalinhaOvo.getAttribute("src");
+
+  if (
+    imagemGalinhaOvo.src ===
+    "https://media.istockphoto.com/id/1313823703/pt/foto/one-brown-chicken-egg-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=xwuuodcja84SvjrasjFDoor5Wo_3qT6OZ5VmtDs2RbQ="
+  ) {
+    imagemGalinhaOvo.setAttribute(
+      "src",
+      "https://devsprouthosting.com/images/chicken.jpg"
+    );
+  } else {
+    imagemGalinhaOvo.setAttribute(
+      "src",
+      "https://media.istockphoto.com/id/1313823703/pt/foto/one-brown-chicken-egg-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=xwuuodcja84SvjrasjFDoor5Wo_3qT6OZ5VmtDs2RbQ="
+    );
+  }
+}
