@@ -1,5 +1,13 @@
-const titulo = document.getElementById('titulo');
-const imagem = document.getElementById('imagem_doc')
+//idExercise
 
-console.log(titulo)
-console.log(imagem)
+// const titulo = document.getElementById('titulo');
+// const imagem = document.getElementById('imagem_doc')
+
+// console.log(titulo)
+// console.log(imagem)
+
+// -----------------------------------------------
+
+//TODOS
+// let doneTodos = document.querySelectorAll('.done');
+
