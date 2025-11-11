@@ -21,6 +21,7 @@ public class Ex_06 {
             //Condição - Verificar a gaveta anterior
             if(array[i] < array[i - 1 ]){
                 crescente = false;
+                break;
             }
 
         }
