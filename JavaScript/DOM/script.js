@@ -59,10 +59,61 @@
 
 // -----------------------------------------------
 //Rainbow
-const cores = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+// const cores = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
-const elemnetosSpan = document.querySelectorAll('div') // Selecionaeni os elementos apenas com a TAG span
+// const elemnetosSpan = document.querySelectorAll('div') // Selecionaeni os elementos apenas com a TAG span
 
-elemnetosSpan.forEach((cadaSpan, index) => {
-    cadaSpan.style.backgroundColor = cores[index]
-}) 
+// elemnetosSpan.forEach((cadaSpan, index) => {
+//     cadaSpan.style.backgroundColor = cores[index]
+// }) 
+
+// //Buttons
+
+// //Localização do elemento 
+// const container = document.querySelector('.button-container'); 
+
+// //Função para criar botões
+// function criarBotao(texto){
+
+// const botao = document.createElement('button');
+// botao.textContent = texto;
+// botao.classList.add('btn', 'btn-danger' ,'m-1', 'p-2');
+
+// return botao;
+// }
+
+// //Criando os 100 botões
+// for(let contador = 1; contador <= 100;contador++){
+// const meuBotao = criarBotao(`Hello ${contador}`)
+// container.appendChild(meuBotao)
+// }
+
+//Colors
+
+// const botao = document.getElementById('btnColor') //Botão 
+
+// function mudarCor(){
+
+//     let r = Math.floor(Math.random() * 256); //Gerar um tom vermelho
+//     let g = Math.floor(Math.random() * 256); //Gerar um tom de verde
+//     let b = Math.floor(Math.random() * 256); //gerar um tom de azul 
+
+//     let novaCor = `rgb(${r},${g},${b})`
+
+//     //Adicionar novo elemento H1
+
+//     const novoElemento = document.createElement('h1')
+//     novoElemento.textContent = novaCor
+
+//     //Adicionar o elemento ao HTML
+// document.body.appendChild(novoElemento)
+
+// //colocar a cor de fundo
+// const backG = document.querySelector('body')
+// backG.style.backgroundColor = novaCor
+
+
+// }
+
+// botao.addEventListener('click', mudarCor)
+
