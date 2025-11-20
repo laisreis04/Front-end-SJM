@@ -23,7 +23,7 @@ public class Ex_04 {
 
         //Menu de opções
         do{
-            System.out.println("O que você gostaria de analisar? Escola uma opção");
+            System.out.println("O que você gostaria de analisar? Escolha uma das opções abaixo");
 
             System.out.println("1. Par");
             System.out.println("2. Positivo");
@@ -36,37 +36,37 @@ public class Ex_04 {
             switch (opcao){
                 case 1:
                     if(numeroPar(numInteiro)){
-                        System.out.println("O numero " + numInteiro + "É par !");
+                        System.out.println("O numero " + numInteiro + " é par !");
                     }else {
-                        System.out.println("O numero " + numInteiro + "É ímpar !");
+                        System.out.println("O numero " + numInteiro + "é ímpar !");
                     }
                     break;
                 case 2:
                     if(numeroPositivo(numInteiro)){
-                        System.out.println("O numero " + numInteiro + "É positivo!");
+                        System.out.println("O numero " + numInteiro + " é positivo!");
                     }else {
-                        System.out.println("O numero " + numInteiro + "não é positivo!");
+                        System.out.println("O numero " + numInteiro + " não é positivo!");
                     }
                     break;
                 case 3:
                     if(numeroPrimo(numInteiro)){
-                        System.out.println("O numero " + numInteiro + "É primo!");
+                        System.out.println("O numero " + numInteiro + " é primo!");
                     }else {
-                        System.out.println("O numero " + numInteiro + "não é primo!");
+                        System.out.println("O numero " + numInteiro + " não é primo!");
                     }
                     break;
                 case 4:
                     if(numeroPerfeito(numInteiro)){
-                        System.out.println("O numero " + numInteiro + "É perfeito!");
+                        System.out.println("O numero " + numInteiro + " é perfeito!");
                     }else {
-                        System.out.println("O numero " + numInteiro + "não é perfeito!");
+                        System.out.println("O numero " + numInteiro + " não é perfeito!");
                     }
                     break;
                 case 5:
                     if(numeroTriangular(numInteiro)){
-                        System.out.println("O numero " + numInteiro + "É triangular!");
+                        System.out.println("O numero " + numInteiro + " é triangular!");
                     }else {
-                        System.out.println("O numero " + numInteiro + "não é triangular!");
+                        System.out.println("O numero " + numInteiro + " não é triangular!");
                     }
                     break;
                 default:
