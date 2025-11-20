@@ -1,3 +1,5 @@
+package FichaPratica05;
+
 public class Ex_03 {
 
     /**
@@ -30,7 +32,7 @@ public class Ex_03 {
     /**
      * Função para verificar se o número é primo (c)
      * @param num
-     * @return
+     * @return numero primo
      */
     public static boolean numeroPrimo (int num){
 
@@ -44,7 +46,12 @@ public class Ex_03 {
 
 }
 
-public static boolean numeroPerfeito(int num){
+    /**
+     *
+     * @param num
+     * @return num pefeito
+     */
+    public static boolean numeroPerfeito(int num){
 
         int soma = 0;
         //Ciclo para verificar os dividores e somar
@@ -62,6 +69,28 @@ public static boolean numeroPerfeito(int num){
     }
 
 }
+
+    /**
+     *
+     * @param num
+     * @return num triangular
+     */
+    public static boolean numeroTriangular(int num){
+        //Variavel para guardar a soma
+    int soma = 0;
+    //Ciclo para somar os numero consecutivos
+    for(int contador = 1; soma < num;contador++){
+        soma += contador;
+        //Comparar e verificar se o numero é triangular
+        if(soma == num ){
+            return true;
+        }
+    }
+    return false;
+
+}
+
+
 
 
 
