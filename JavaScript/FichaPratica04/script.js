@@ -33,5 +33,16 @@ botao03.addEventListener("click", function() {
 });
 
 // Exercício 4
+const botao04 = document.getElementById("botao04");
+botao04.addEventListener("click", function() {
+    const testarNum = prompt("Digite um número: ");
+    if(testarNum % 2 === 0){
+        alert(`O número ${testarNum} é par!`);
+    }else{
+        alert(`O número ${testarNum} é ímpar!`);
+    }
+});
+
+
 
     
