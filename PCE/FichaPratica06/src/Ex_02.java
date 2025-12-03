@@ -7,7 +7,7 @@ public class Ex_02 {
     static void main() throws FileNotFoundException {
 
         //Criar o novo arquivo
-        File arquivo = new File ("FichaPratica06/Ficheiros/ex_02_1.txt");
+        File arquivo = new File ("FichaPratica06/Ficheiros/exercicio_02_Copia.txt");
 
         //Máquina para escrever
         PrintWriter maquinaEscrever = new PrintWriter(arquivo);

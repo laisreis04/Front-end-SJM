@@ -8,7 +8,7 @@ public class Ex_01 {
 
 
         //Indicar o caminho do ficheiro
-        File arquivo = new File("FichaPratica06/Ficheiros/ex_01.txt");
+        File arquivo = new File("FichaPratica06/Ficheiros/exercicio_01.txt");
 
         //Leitor de arquivo
         Scanner leitor = new Scanner(arquivo);
